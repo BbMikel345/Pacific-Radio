@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" class="leading-[inherit]">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacific Radio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            align-items: center;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url(assets/fonts/Montserrat-Regular.ttf);
+        }
+
+        body {
+            background: linear-gradient(180deg, rgba(255, 0, 0, 0.46) 10.62%, rgba(0, 0, 0, 0.49) 100%), lightgray 50% url(assets/images/bc.jpg);
+        }
+
+        .comment {
+            background-color: white;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sort {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .textareaDiv {
+            border: 2px solid gray;
+            width: 100%;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 0 5px;
+            outline: none;
+        }
+
+        .btnDiv {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            padding: 5px;
+            background-color: #c1d0d5;
+        }
+
+        .btnDiv button {
+            background-color: blue;
+            width: 10%;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="h-screen w-screen bg-no-repeat bg-cover bg-blend-multiply">
+    <main class="h-full w-full bg-[#0a0404b3] pt-[56px] pb-[35px] flex flex-col justify-between relative">
+        <div class="absolute h-[22%] w-[30%] bg-blue-500 rounded-[5px] left-[3%] top-[3%]">
+
+        </div>
+        <div class="h-[50px] flex gap-[10px]">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M42.675 7.325L39.15 10.85C42.75 14.475 45 19.475 45 25C45 36.05 36.05 45 25 45C13.95 45 5 36.05 5 25C5 14.8 12.625 6.4 22.5 5.175V10.225C15.4 11.425 10 17.575 10 25C10 33.275 16.725 40 25 40C33.275 40 40 33.275 40 25C40 20.85 38.325 17.1 35.6 14.4L32.075 17.925C33.875 19.75 35 22.25 35 25C35 30.525 30.525 35 25 35C19.475 35 15 30.525 15 25C15 20.35 18.2 16.475 22.5 15.35V20.7C21 21.575 20 23.15 20 25C20 27.75 22.25 30 25 30C27.75 30 30 27.75 30 25C30 23.15 29 21.55 27.5 20.7V0H25C11.2 0 0 11.2 0 25C0 38.8 11.2 50 25 50C38.8 50 50 38.8 50 25C50 18.1 47.2 11.85 42.675 7.325Z"
+                    fill="white" />
+            </svg>
+            <hr class="h-[27px] bg-[#D9D9D9] border-solid border-[1px]">
+            <p class="text-[36px] text-white font-bold font-[Montserrat]">Pacific Int Radio</p>
+        </div>
+        <div class="flex flex-col">
+            <svg width="120" height="120" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M49.3333 85.3333H57.3333V42.6667H49.3333V85.3333ZM70.6666 85.3333H78.6666V42.6667H70.6666V85.3333ZM64 117.333C56.7111 117.333 49.8222 115.933 43.3333 113.133C36.8444 110.333 31.1777 106.511 26.3333 101.667C21.4888 96.8222 17.6666 91.1556 14.8666 84.6667C12.0666 78.1778 10.6666 71.2889 10.6666 64C10.6666 56.6222 12.0666 49.6889 14.8666 43.2C17.6666 36.7111 21.4888 31.0667 26.3333 26.2667C31.1777 21.4667 36.8444 17.6667 43.3333 14.8667C49.8222 12.0667 56.7111 10.6667 64 10.6667C71.3777 10.6667 78.3111 12.0667 84.8 14.8667C91.2888 17.6667 96.9333 21.4667 101.733 26.2667C106.533 31.0667 110.333 36.7111 113.133 43.2C115.933 49.6889 117.333 56.6222 117.333 64C117.333 71.2889 115.933 78.1778 113.133 84.6667C110.333 91.1556 106.533 96.8222 101.733 101.667C96.9333 106.511 91.2888 110.333 84.8 113.133C78.3111 115.933 71.3777 117.333 64 117.333ZM64 109.333C76.6222 109.333 87.3333 104.911 96.1333 96.0667C104.933 87.2222 109.333 76.5333 109.333 64C109.333 51.3778 104.933 40.6667 96.1333 31.8667C87.3333 23.0667 76.6222 18.6667 64 18.6667C51.4666 18.6667 40.7777 23.0667 31.9333 31.8667C23.0888 40.6667 18.6666 51.3778 18.6666 64C18.6666 76.5333 23.0888 87.2222 31.9333 96.0667C40.7777 104.911 51.4666 109.333 64 109.333Z"
+                    fill="white" />
+            </svg>
+            <p class="text-[25px] text-white font-light font-[Montserrat]">Now Playing</p>
+            <p class="text-[25px] text-white font-light font-[Montserrat]">Program Title Lorem Ipsmu</p>
+        </div>
+        <div class="h-[57%] w-[33%] absolute right-0 bottom-[15%]">
+            <div class="h-[15.2%] rounded-ss-[10px] bg-[#7f8589] pl-[40px] flex">
+                <p class="text-white font-[Montserrat]">Comments</p>
+            </div>
+            <div class="comment h-[68.1%]">
+                <div class="sort">
+                    <p><b>5 Comments</b></p>
+                    <div>
+                        Sort by:<span>
+                            <select name="" id="">
+                                <option value="Newest">Newest</option>
+                                <option value="Oldest">Oldest</option>
+                            </select>
+                        </span>
+                    </div>
+                </div>
+                <hr width="100%">
+                <div class="textareaDiv">
+                    <textarea name="" id="" placeholder="Add a comment..."></textarea>
+                    <div class="btnDiv"><button>Post</button></div>
+                </div>
+                <div class="comSec">
+
+                </div>
+            </div>
+            <div class="h-[16.7%] rounded-es-[10px] bg-[#2F964C] flex pl-[40px] relative">
+                <p class="text-white font-[Montserrat]">Winter Toothpaste Special Winter Toothpaste</p>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="absolute top-[10%] right-[2%]">
+                    <path
+                        d="M3.375 15.75C3.05 15.75 2.78125 15.6438 2.56875 15.4313C2.35625 15.2188 2.25 14.95 2.25 14.625V3.375C2.25 3.05 2.35625 2.78125 2.56875 2.56875C2.78125 2.35625 3.05 2.25 3.375 2.25H7.1625C7.25 1.8125 7.46563 1.45312 7.80938 1.17188C8.15313 0.890625 8.55 0.75 9 0.75C9.45 0.75 9.84688 0.890625 10.1906 1.17188C10.5344 1.45312 10.75 1.8125 10.8375 2.25H14.625C14.95 2.25 15.2188 2.35625 15.4313 2.56875C15.6438 2.78125 15.75 3.05 15.75 3.375V14.625C15.75 14.95 15.6438 15.2188 15.4313 15.4313C15.2188 15.6438 14.95 15.75 14.625 15.75H3.375ZM3.375 14.625H14.625V3.375H13.5V5.0625H4.5V3.375H3.375V14.625ZM9 3.375C9.2125 3.375 9.39063 3.30313 9.53438 3.15938C9.67813 3.01562 9.75 2.8375 9.75 2.625C9.75 2.4125 9.67813 2.23438 9.53438 2.09063C9.39063 1.94688 9.2125 1.875 9 1.875C8.7875 1.875 8.60938 1.94688 8.46563 2.09063C8.32188 2.23438 8.25 2.4125 8.25 2.625C8.25 2.8375 8.32188 3.01562 8.46563 3.15938C8.60938 3.30313 8.7875 3.375 9 3.375Z"
+                        fill="white" />
+                </svg>
+            </div>
+        </div>
+        <div class="h-[54px] w-[95%] flex justify-between">
+            <div class="flex gap-[30px]">
+                <svg width="50" height="100%" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M42.675 7.325L39.15 10.85C42.75 14.475 45 19.475 45 25C45 36.05 36.05 45 25 45C13.95 45 5 36.05 5 25C5 14.8 12.625 6.4 22.5 5.175V10.225C15.4 11.425 10 17.575 10 25C10 33.275 16.725 40 25 40C33.275 40 40 33.275 40 25C40 20.85 38.325 17.1 35.6 14.4L32.075 17.925C33.875 19.75 35 22.25 35 25C35 30.525 30.525 35 25 35C19.475 35 15 30.525 15 25C15 20.35 18.2 16.475 22.5 15.35V20.7C21 21.575 20 23.15 20 25C20 27.75 22.25 30 25 30C27.75 30 30 27.75 30 25C30 23.15 29 21.55 27.5 20.7V0H25C11.2 0 0 11.2 0 25C0 38.8 11.2 50 25 50C38.8 50 50 38.8 50 25C50 18.1 47.2 11.85 42.675 7.325Z"
+                        fill="white" />
+                </svg>
+                <a class="text-[white] text-[16px] font-bold font-[Montserrat] hover:underline decoration-[3px]"
+                    href="">Our Story</a>
+                <a class="text-[white] text-[16px] font-bold font-[Montserrat] hover:underline decoration-[3px]"
+                    href="">The Station</a>
+                <a class="text-[white] text-[16px] font-bold font-[Montserrat] hover:underline decoration-[3px]"
+                    href="">Activities</a>
+            </div>
+            <div class="flex gap-[10px]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                    <circle cx="11.5" cy="11.5" r="11.5" fill="#2F964C" />
+                    <circle cx="11.5" cy="11.5" r="7.5" fill="#36D663" />
+                </svg>
+                <p class="text-white font-[Montserrat]">1,260 Listeners</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

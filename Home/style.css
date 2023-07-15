@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(assets/fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    height: 100svh;
+    width: 100svw;
+    /* background: url(assets/images/pacific.png), lightgray 50% / cover no-repeat; */
+    background-image: url(assets/images/pacific.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background: rgba(10, 4, 4, 0.70);
+    padding: 56px 0 35px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.logo hr {
+    height: 27px;
+}
+
+p, a {
+    color: #FFF;
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: normal;
+}
+
+.logo-p {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.listen-now {
+    display: flex;
+    flex-direction: column;
+}
+
+.listen-now p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.nav {
+    height: 54px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-right {
+    display: flex;
+    gap: 10px;
+}

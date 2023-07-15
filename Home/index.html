@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" class="leading-[inherit]">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacific Radio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            align-items: center;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url(assets/fonts/Montserrat-Regular.ttf);
+        }
+    </style>
+</head>
+
+<body class="h-screen w-screen bg-[url(assets/images/pacific.png)] bg-no-repeat bg-cover">
+    <main class="h-full w-full bg-[#0a0404b3] pt-[56px] pb-[35px] flex flex-col justify-between relative">
+        <div class="h-[50px] flex gap-[10px]">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M42.675 7.325L39.15 10.85C42.75 14.475 45 19.475 45 25C45 36.05 36.05 45 25 45C13.95 45 5 36.05 5 25C5 14.8 12.625 6.4 22.5 5.175V10.225C15.4 11.425 10 17.575 10 25C10 33.275 16.725 40 25 40C33.275 40 40 33.275 40 25C40 20.85 38.325 17.1 35.6 14.4L32.075 17.925C33.875 19.75 35 22.25 35 25C35 30.525 30.525 35 25 35C19.475 35 15 30.525 15 25C15 20.35 18.2 16.475 22.5 15.35V20.7C21 21.575 20 23.15 20 25C20 27.75 22.25 30 25 30C27.75 30 30 27.75 30 25C30 23.15 29 21.55 27.5 20.7V0H25C11.2 0 0 11.2 0 25C0 38.8 11.2 50 25 50C38.8 50 50 38.8 50 25C50 18.1 47.2 11.85 42.675 7.325Z"
+                    fill="white" />
+            </svg>
+            <hr class="h-[27px] bg-[#D9D9D9] border-solid border-[1px]">
+            <p class="text-[36px] text-white font-bold font-[Montserrat]">Pacific Int Radio</p>
+        </div>
+        <div class="flex flex-col">
+            <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M47.875 81.25L81.25 60L47.875 38.75V81.25ZM60 110C53.1667 110 46.7083 108.688 40.625 106.062C34.5417 103.438 29.2292 99.8542 24.6875 95.3125C20.1458 90.7708 16.5625 85.4583 13.9375 79.375C11.3125 73.2917 10 66.8333 10 60C10 53.0833 11.3125 46.5833 13.9375 40.5C16.5625 34.4167 20.1458 29.125 24.6875 24.625C29.2292 20.125 34.5417 16.5625 40.625 13.9375C46.7083 11.3125 53.1667 10 60 10C66.9167 10 73.4167 11.3125 79.5 13.9375C85.5833 16.5625 90.875 20.125 95.375 24.625C99.875 29.125 103.438 34.4167 106.062 40.5C108.688 46.5833 110 53.0833 110 60C110 66.8333 108.688 73.2917 106.062 79.375C103.438 85.4583 99.875 90.7708 95.375 95.3125C90.875 99.8542 85.5833 103.438 79.5 106.062C73.4167 108.688 66.9167 110 60 110ZM60 102.5C71.8333 102.5 81.875 98.3542 90.125 90.0625C98.375 81.7708 102.5 71.75 102.5 60C102.5 48.1667 98.375 38.125 90.125 29.875C81.875 21.625 71.8333 17.5 60 17.5C48.25 17.5 38.2292 21.625 29.9375 29.875C21.6458 38.125 17.5 48.1667 17.5 60C17.5 71.75 21.6458 81.7708 29.9375 90.0625C38.2292 98.3542 48.25 102.5 60 102.5Z"
+                    fill="white" />
+            </svg>
+            <p class="text-[25px] text-white font-light font-[Montserrat]">Listen Now</p>
+            <p class="text-[25px] text-white font-light font-[Montserrat]">Program Title Lorem Ipsmu</p>
+        </div>
+        <div class="h-[54px] w-[95%] flex justify-between">
+            <div class="flex gap-[30px]">
+                <svg width="50" height="100%" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M42.675 7.325L39.15 10.85C42.75 14.475 45 19.475 45 25C45 36.05 36.05 45 25 45C13.95 45 5 36.05 5 25C5 14.8 12.625 6.4 22.5 5.175V10.225C15.4 11.425 10 17.575 10 25C10 33.275 16.725 40 25 40C33.275 40 40 33.275 40 25C40 20.85 38.325 17.1 35.6 14.4L32.075 17.925C33.875 19.75 35 22.25 35 25C35 30.525 30.525 35 25 35C19.475 35 15 30.525 15 25C15 20.35 18.2 16.475 22.5 15.35V20.7C21 21.575 20 23.15 20 25C20 27.75 22.25 30 25 30C27.75 30 30 27.75 30 25C30 23.15 29 21.55 27.5 20.7V0H25C11.2 0 0 11.2 0 25C0 38.8 11.2 50 25 50C38.8 50 50 38.8 50 25C50 18.1 47.2 11.85 42.675 7.325Z"
+                        fill="white" />
+                </svg>
+                <a class="text-[white] text-[16px] font-bold font-[Montserrat] hover:underline decoration-[3px]" href="">Our Story</a>
+                <a class="text-[white] text-[16px] font-bold font-[Montserrat] hover:underline decoration-[3px]" href="">The Station</a>
+                <a class="text-[white] text-[16px] font-bold font-[Montserrat] hover:underline decoration-[3px]" href="">Activities</a>
+            </div>
+            <div class="flex gap-[10px]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                    <circle cx="11.5" cy="11.5" r="11.5" fill="#2F964C" />
+                    <circle cx="11.5" cy="11.5" r="7.5" fill="#36D663" />
+                </svg>
+                <p class="text-white font-[Montserrat]">1,260 Listeners</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
